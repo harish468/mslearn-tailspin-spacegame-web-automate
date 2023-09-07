@@ -1,0 +1,9 @@
+- task: TerraformTaskV4@4
+  inputs:
+    provider: 'azurerm'
+    command: 'init'
+    backendServiceArm: 'Visual Studio Enterprise Subscription(b5a9d2da-8bdc-479f-b0fa-6111ddc5bbc4)'
+    backendAzureRmResourceGroupName: 'Harish'
+    backendAzureRmStorageAccountName: 'tesrtn'
+    backendAzureRmContainerName: 'testcon'
+    backendAzureRmKey: 'sp=rw&st=2023-09-07T17:31:30Z&se=2023-09-08T01:31:30Z&spr=https&sv=2022-11-02&sr=c&sig=uRRyxkJ7MauCNhsPIyv8R421hsAVP96gtzTh6IaW5H0%3D'
